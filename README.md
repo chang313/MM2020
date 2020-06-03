@@ -1,7 +1,7 @@
 # MM2020
 MM2020_Project
 
-## File Desciption
+## File Description
 model.py: contains CNN model used in learning  
 train.py: training and validation  
 util.py: data preprocseeing; convert jpg file and corresponding label into tensor  
