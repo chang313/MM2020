@@ -15,3 +15,6 @@ test14: self made
 test15: https://www.youtube.com/watch?v=W1nFxdPFJ-0&t=462s
 test16: Woosung Kim
 test17: HoYeon Jang
+test18: https://www.youtube.com/watch?v=WraHuXeI5bM
+test19: https://www.youtube.com/watch?v=PiNE12VqrUY&t=6s
+test20: http://youtube.com/watch?v=6Z527fYwN5c
