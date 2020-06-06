@@ -9,6 +9,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 
+
 # ============================================================================
 # image processing functions
 # ============================================================================
@@ -40,14 +41,16 @@ def load_jpg_data(dataFile, dtype='int'):
 
 #Leave code for debugging purposes
 if __name__ == '__main__':
-    mydir = "./raw_data/Emajor/test15/*.jpg"
+    mydir = "./data/Emajor/test15/*.jpg"
     class_num = 5
     
     for i, file in enumerate(glob.glob(mydir)):
         img = load_jpg_data(file)
         img = torch.tensor(img).float()
+        print(img.size())
+
         label = torch.tensor(class_num)
         
         datapair = (img, label)
-        torch.save(datapair, './data_train/data/Emajor_test15_%d.pt' % (i+1))
+        torch.save(datapair, './data/Emajor_test15_%d.pt' % (i+1))
 
