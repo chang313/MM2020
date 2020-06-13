@@ -2,7 +2,7 @@
 MM2020_Project
 
 ## Updates
-06/12: number of class increased to 14 including X7 chords & training / by Hyun
+06/12, Hyun: number of class increased to 14 including X7 chords & training
 
 ## File Description
 model.py: contains CNN model used in learning  
