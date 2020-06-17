@@ -29,7 +29,7 @@ class CNN(nn.Module):
         
         self.linear1 = nn.Linear(64*10*5, 320)
         self.linear2 = nn.Linear(320, 64)
-        self.linear3 = nn.Linear(64, 8)
+        self.linear3 = nn.Linear(64, 14)
         
     
     def forward(self, x):
